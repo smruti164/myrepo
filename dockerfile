@@ -1,3 +1,4 @@
+#Local repo setting
 FROM localhost:5000/my-local-base-image
 
 # Install Apache HTTP Server (httpd)
