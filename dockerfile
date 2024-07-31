@@ -1,5 +1,4 @@
-# Use the Universal Base Image (UBI) from Red Hat
-FROM registry.access.redhat.com/ubi8/ubi
+FROM localhost:5000/my-local-base-image
 
 # Install Apache HTTP Server (httpd)
 RUN yum -y install httpd && \
